@@ -56,3 +56,78 @@ pip install -r requirements.txt
 
 # 5️⃣ Run the application
 streamlit run app.py
+```
+
+Open your browser at http://localhost:8501.
+
+---
+
+## 📖 Usage
+
+| Step | Action                     | Output                            |
+| ---- | -------------------------- | --------------------------------- |
+| 1    | 📁 Upload Data (CSV/Excel) | Loads dataset for processing      |
+| 2    | 🤖 AI Processing           | Cleans and imputes missing values |
+| 3    | 📊 Generate Estimates      | Choose estimation method          |
+| 4    | 📄 Export Reports          | Download data and reports         |
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+mospi-ai-survey-analysis/
+├── app.py               # Streamlit app entry point
+├── config.py            # Configuration settings
+├── data_processor.py    # Data cleaning functions
+├── ai_text_processor.py # AI text processing
+├── hybrid_processor.py  # Hybrid pipeline logic
+├── ai_estimator.py      # AI estimation methods
+├── report_generator.py  # Report generation
+├── utils.py             # Helper utilities
+└── requirements.txt     # Dependencies list
+```
+
+---
+
+## 📋 Requirements
+
+streamlit==1.28.0
+pandas==2.1.0
+numpy==1.25.2
+scikit-learn==1.3.0
+plotly==5.15.0
+scipy==1.11.1
+statsmodels==0.14.0
+openpyxl==3.1.2
+
+---
+
+## 🤝 Contributing
+
+# Fork the repository
+
+# Create a feature branch
+git checkout -b feature/my-feature
+
+# Commit your changes
+git commit -m "Add new feature"
+
+# Push the branch
+git push origin feature/my-feature
+
+Then open a Pull Request.
+
+---
+
+## 🏆 Acknowledgments
+
+- MoSPI – For initiating the modernization challenge
+
+- Statathon 2025 Organizers – For the competition platform
+
+- Open-Source Community – For the tools and libraries
+
+---
+
+⭐ If this project helps you, star the repository to support development.
