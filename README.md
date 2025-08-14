@@ -49,7 +49,7 @@ This Streamlit-based system streamlines government survey workflows through:
 
 ### **Setup Steps**
 📦 Clone repository
-git clone https://github.com/yourusername/mospi-ai-survey-analysis.git
+git clone https://github.com/SaTyAbHr2005/AI-SDPIP-Smart-Data-Processing-with-Intelligent-Automation
 cd mospi-ai-survey-analysis
 
 🌐 Create virtual environment
