@@ -1,63 +1,58 @@
-# 🚀 MoSPI AI‑Enhanced Survey Analysis
+# 📊 MoSPI AI-Enhanced Survey Analysis
 
-> **AI‑powered survey data processing for government statistics modernization**
+> AI-powered survey data cleaning, analysis, and estimation for government statistics modernization.
 
-![Project Banner](https://via.placeholder.com/1200x300.png?text=MoSPI+AI-Enhanced+Survey+Analysis+%7C+Statathon+2025)
-
-An intelligent survey analysis platform combining **traditional statistical methods** with **AI/ML techniques** for automated data processing, missing value imputation, and population estimation.  
-Developed for the Ministry of Statistics and Programme Implementation (**MoSPI**) as part of **Statathon 2025**.
+This project is built for the **Ministry of Statistics and Programme Implementation (MoSPI)** as part of **Statathon 2025**.  
+It integrates **traditional statistical methods** with **AI/ML models** to automate survey data processing, impute missing values, generate estimates, and produce professional reports.
 
 ---
 
-## 📋 Overview
+## 🚀 Features
 
-This Streamlit-based system streamlines government survey workflows through:
-- Automated **data cleaning and imputation**
-- Hybrid **design‑based + AI‑based** population estimation
-- Interactive dashboards and **professional‑grade reporting**
-- Comprehensive **data quality assessment and scoring**
-
----
-
-## ✨ Features
-
-- 🤖 **AI Hybrid Processing** – Context‑aware text generation for categorical data, ML‑based numerical imputation  
-- 📊 **Multiple Estimation Methods** – Design‑based, model‑based, and AI‑enhanced hybrids  
-- 📈 **Interactive Dashboard** – Real‑time metrics & Plotly visualizations  
-- 📄 **One‑Click Reporting** – Export to HTML, PDF‑ready, and JSON with AI insights  
-- 🔍 **Quality Scoring** – Completeness, reliability & consistency metrics  
+- 🤖 **AI Hybrid Processing** – ML-based and rule-based cleaning with intelligent imputation
+- 📈 **Multiple Estimation Methods** – Design-based, model-based, and hybrid estimation
+- 📊 **Interactive Dashboards** – Real-time visualizations via Plotly
+- 📄 **Report Generation** – Export ready-to-use reports in HTML, PDF-ready, and JSON formats
+- 🔍 **Data Quality Scoring** – Completeness, reliability, and consistency metrics
 
 ---
 
 ## 🛠 Tech Stack
 
-| Category        | Technologies |
-|-----------------|--------------|
-| **Frontend**    | Streamlit, Plotly |
-| **Backend**     | Python 3.8+, Pandas, NumPy |
-| **ML/AI**       | scikit‑learn (Random Forest, Gradient Boosting, Isolation Forest) |
-| **Statistics**  | SciPy, statsmodels |
-| **Data Formats**| CSV, Excel (.xlsx, .xls) |
+| Category      | Technologies |
+|---------------|--------------|
+| Frontend      | Streamlit, Plotly |
+| Backend       | Python 3.8+, Pandas, NumPy |
+| ML/AI         | scikit-learn (Random Forest, Gradient Boosting, Isolation Forest) |
+| Statistics    | SciPy, statsmodels |
+| File Formats  | CSV, Excel (.xlsx, .xls) |
 
 ---
 
-## 🚀 Installation
+## 📦 Installation
 
 ### **Prerequisites**
 - Python 3.8 or higher
-- 4GB+ RAM recommended
+- 4 GB+ RAM recommended
 
-### **Setup Steps**
-📦 Clone repository
-git clone https://github.com/SaTyAbHr2005/AI-SDPIP-Smart-Data-Processing-with-Intelligent-Automation
+### **Setup**
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/yourusername/mospi-ai-survey-analysis.git
 cd mospi-ai-survey-analysis
 
-🌐 Create virtual environment
+# 2️⃣ Create a virtual environment
 python -m venv venv
-source venv/bin/activate # Windows: venv\Scripts\activate
 
-📋 Install dependencies
+# 3️⃣ Activate the virtual environment
+# macOS / Linux
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
+
+# 4️⃣ Install dependencies
 pip install -r requirements.txt
 
-🚀 Start the application
+# 5️⃣ Run the application
 streamlit run app.py
