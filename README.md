@@ -39,7 +39,7 @@ It integrates **traditional statistical methods** with **AI/ML models** to autom
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/yourusername/mospi-ai-survey-analysis.git
+git clone https://github.com/SaTyAbHr2005/mospi-ai-survey-analysis.git
 cd mospi-ai-survey-analysis
 
 # 2️⃣ Create a virtual environment
