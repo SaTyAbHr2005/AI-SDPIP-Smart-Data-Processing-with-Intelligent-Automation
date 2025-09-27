@@ -1,8 +1,7 @@
-# 📊 MoSPI AI-Enhanced Survey Analysis
+# 📊 AI-Enhanced Survey Analysis
 
 > AI-powered survey data cleaning, analysis, and estimation for government statistics modernization.
 
-This project is built for the **Ministry of Statistics and Programme Implementation (MoSPI)** as part of **Statathon 2025**.  
 It integrates **traditional statistical methods** with **AI/ML models** to automate survey data processing, impute missing values, generate estimates, and produce professional reports.
 
 ---
@@ -123,8 +122,6 @@ Then open a Pull Request.
 ## 🏆 Acknowledgments
 
 - MoSPI – For initiating the modernization challenge
-
-- Statathon 2025 Organizers – For the competition platform
 
 - Open-Source Community – For the tools and libraries
 
